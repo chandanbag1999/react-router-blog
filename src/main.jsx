@@ -9,7 +9,7 @@ import About from './Component/About/About.jsx'
 import Contact from './Component/Contact/Contact.jsx'
 import User from './Component/User/User.jsx'
 import Github, { GithubLoader } from './Component/Github/Github.jsx'
-import Price from './Component/Price/Price.jsx'
+// import Price from './Component/Price/Price.jsx'
 
 
 const router = createBrowserRouter(
@@ -17,7 +17,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout/>}>
     <Route path='' element={<Home/>}/>
     <Route path='about' element={<About/>}>
-      <Route path='price' element={<Price/>}/>
+      {/* <Route path='price' element={<Price/>}/> */}
     </Route>
     <Route path='contact' element={<Contact/>}/>
     <Route path='user/:userid' element={<User/>}/>

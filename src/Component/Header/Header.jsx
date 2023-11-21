@@ -2,7 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
 function Header() {
-  const [showPrice, setShowPrice] = React.useState(false);
+  // const [showPrice, setShowPrice] = React.useState(false);
 
   const handleAboutHover = () => {
     setShowPrice(true);
@@ -67,7 +67,7 @@ function Header() {
                 >
                   About
                 </NavLink>
-                {showPrice && (
+                {/* {showPrice && (
                   <NavLink
                   to="/price"
                   className={({ isActive }) =>
@@ -78,7 +78,7 @@ function Header() {
                 >
                   Price
                 </NavLink>  
-                )}
+                )} */}
               </li>
               <li>
                 <NavLink
